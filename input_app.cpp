@@ -66,6 +66,7 @@ bool InputApp::Update(float frame_time)
 		ProcessTouchInput();
 	}
 	sprite.update(frame_time, input_manager_);
+	
 
 	return true;
 }
