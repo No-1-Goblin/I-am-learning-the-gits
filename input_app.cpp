@@ -65,11 +65,8 @@ bool InputApp::Update(float frame_time)
 
 		ProcessTouchInput();
 	}
+	sprite.update(frame_time, input_manager_);
 	
-	/*if (movementFrames) {
-		sprite.set_position(gef::Vector4(sprite.position().x() + movementDirection.x, sprite.position().y() + movementDirection.y, sprite.position().z(), sprite.position().w()));
-		movementFrames--;
-	}*/
 
 	return true;
 }

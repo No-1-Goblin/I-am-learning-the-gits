@@ -5,6 +5,7 @@
 #include <maths/vector2.h>
 #include <input/touch_input_manager.h>
 #include <graphics/sprite.h>
+#include <DiscoSprite.h>
 
 // FRAMEWORK FORWARD DECLARATIONS
 namespace gef
@@ -43,7 +44,7 @@ private:
 	int movementFrames = 0;
 
 	float fps_;
-	gef::Sprite sprite;
+	DiscoSprite sprite;
 };
 
 #endif // _INPUT_APP_H
