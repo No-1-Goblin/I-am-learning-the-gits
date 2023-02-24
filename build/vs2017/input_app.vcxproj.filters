@@ -24,9 +24,15 @@
     <ClCompile Include="..\..\main_vita.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DiscoSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\input_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscoSprite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
