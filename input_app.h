@@ -44,7 +44,7 @@ private:
 	int movementFrames = 0;
 
 	float fps_;
-	DiscoSprite sprite;
+	gef::Sprite sprite;
 };
 
 #endif // _INPUT_APP_H
